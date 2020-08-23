@@ -19,8 +19,9 @@ $("document").ready(function(){
         if (e.target.value.length >= 3 && JSONdata!=null) {
             let itemArray = [];
             for (const item in JSONdata) {
-                let temp = JSONdata[item].name.toLowerCase();
-                if ( temp.includes(e.target.value) ) {
+                let temp = JSONdata[item].name;
+                let temp2 = JSONdata[item].name.toLowerCase();
+                if ( temp.includes(e.target.value) || temp2.includes(e.target.value)  ) {
                     itemArray.push(item);
                 }
             }
