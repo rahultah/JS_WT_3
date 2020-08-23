@@ -1,0 +1,51 @@
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px;
+    color: floralwhite;
+    background: #9575CD ;
+
+}
+.jumbotron{
+    background: #9575CD ;
+    padding:70px 30px 70px 30px;
+    margin:0px auto
+
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+body{
+    padding: 50px 0px 0px 0px;
+}
+.navbar-dark{
+    background-color: #512DA8;
+}
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }

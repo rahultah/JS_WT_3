@@ -1,0 +1,28 @@
+{
+  "name": "js_wt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahultah/JS_WT_1.git"
+  },
+  "author": "Rahul Tah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahultah/JS_WT_1/issues"
+  },
+  "homepage": "https://github.com/rahultah/JS_WT_1#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "file-system": "^2.2.2",
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.5.4",
+    "requirejs": "^2.3.6"
+  }
+}
